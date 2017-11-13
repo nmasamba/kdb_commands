@@ -250,7 +250,12 @@ Garbage collecting...
 
 *********************************
 
-
+/ Experimentation
+/ Run each query several times – does the performance change? (Q doesn’t use explicit caching, it relies on the OS file system caches.)
+/ Run the queries with different parameters.
+/ If you have multiple cores available, restart the database with slaves. See if some of the query performance changes.
+/ Rebuild the database and change the number of days of data in the database, and the number of records per day. How is the query performance affected?
+/ Rebuild the database with compression turned on. How does the size vary? And the performance?
 
 
 
